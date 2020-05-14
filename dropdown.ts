@@ -1,5 +1,5 @@
-var dropdownElement: HTMLSelectElement = <HTMLSelectElement>document.getElementById('cars');
-var dropdownOption: HTMLOptionElement = document.createElement("option");
-dropdownOption.text = "Text";
-dropdownOption.value = "value";
-dropdownElement.add(dropdownOption);
+var selectElement: HTMLSelectElement = <HTMLSelectElement>document.getElementById('cars');
+var optionElement: HTMLOptionElement = document.createElement("option");
+optionElement.text = "Text";
+optionElement.value = "value";
+selectElement.add(optionElement);
